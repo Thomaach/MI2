@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schaakbord</title>
+    <style>
+        div {
+            border: 1px solid black;
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var size = 10;
+        var canvas = document.createElement('canvas');
+        canvas.width = canvas.height = (40 * size);
+        var context = canvas.getContext('2d');
+        for (var x = 0; x < size; x++)
+            for (var y = 0; y < size; y++) {
+                context.fillStyle = (x + y) % 2 ? 'white' : 'black';
+                context.fillRect(40 * x, 40 * y, 40, 40)
+            }
+        document.body.appendChild(canvas);
+    </script>
+
+</body>
+</html>
