@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hide & Seek</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    /*    $(document).ready(function() {
+            $("#verdwijn").click(function() {
+                $("p").hide();
+            });
+        });
+
+
+        $(document).ready(function() {
+            $("#verdwijn").click(function() {
+                $(this).hide();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#verdwijn").click(function() {
+                $("#toon").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#toon").click(function() {
+                $("p").show();
+            });
+        });
+        
+        $(document).ready(function() {
+            $("#toon").click(function() {
+                $(this).hide();
+            });
+        });
+        
+        $(document).ready(function() {
+            $("#toon").click(function() {
+                $("#verdwijn").show();
+            });
+        }); */
+        
+        $(document).ready(function() {
+            $("#verdwijn").click(function() {
+                $("p").toggle();
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <p>If you click on me, I will disappear.</p>
+
+    <button id="verdwijn">Click me</button>
+
+    <!--<button hidden="true" id="toon">Click me</button> -->
+
+
+</body>
+
+</html>
