@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Issue</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#raclette").click(function() {
+                $("#panel").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function() {
+            $("#gratin").click(function() {
+                $("#panel2").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function() {
+            $("#frietjes").click(function() {
+                $("#panel3").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function() {
+            $("#foto1").click(function() {
+                $("#panel").slideToggle("slow");
+            });
+        });
+        
+        $(document).ready(function() {
+            $("#foto2").click(function() {
+                $("#panel2").slideToggle("slow");
+            });
+        });
+        
+        $(document).ready(function() {
+            $("#foto3").click(function() {
+                $("#panel3").slideToggle("slow");
+            });
+        });
+
+    </script>
+
+    <style>
+        #panel {
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+            padding: 50px;
+            display: none;
+        }
+
+        #panel2 {
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+            padding: 50px;
+            display: none;
+        }
+
+        #panel3 {
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+            padding: 50px;
+            display: none;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="raclette">Raclette</div>
+    <p id="gratin">Gratin</p>
+    <p id="frietjes">Frietjes</p>
+
+
+    <img src="./Raclette-foto.jpg" width="100" height="100" id="foto1" alt="foto raclette">
+
+    <img src="./gratin.jpg" width="100" height="100" id="foto2" alt="foto gratin">
+
+    <img src="./frietjes.jpg" width="100" height="100" id="foto3" alt="foto frietjes">
+
+
+
+    <div id="panel">
+        <ul>
+            <li>Ingredienten Raclette:</li>
+            <li>Kaas</li>
+            <li>Peper poeder</li>
+        </ul>
+    </div>
+
+    <div id="panel2">
+        <ul>
+            <li>Ingredienten Gratin:</li>
+            <li>Aardappel</li>
+            <li>Room</li>
+            <li>Peper & zout</li>
+            <li>Muskaatnoot</li>
+        </ul>
+    </div>
+
+    <div id="panel3">
+        <ul>
+            <li>Ingredienten Frietjes:</li>
+            <li>aardappel</li>
+            <li>zout</li>
+        </ul>
+    </div>
+
+
+
+</body>
+
+</html>
