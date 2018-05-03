@@ -1,0 +1,451 @@
+
+@media only screen and (min-width: 1700px) and (max-width: 4000px) {
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background-color: black;
+    }
+
+    #container {
+        position: relative;
+        height: 80vh;
+        width: 30vw;
+        left: 35%;
+        background-color: #292929;
+        overflow: hidden;
+    }
+
+    .line {
+        position: absolute;
+        height: 150px;
+        width: 4%;
+        margin-left: 48%;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    #line_1 {
+        top: -150px;
+    }
+
+    #line_2 {
+        top: 150px;
+    }
+
+    #line_3 {
+        top: 450px;
+    }
+
+    .car {
+        position: absolute;
+        border: none;
+
+    }
+
+    #car {
+        bottom: 8%;
+        left: 60%;
+        width: 15%;
+        height: 17%;
+    }
+
+    #car_1 {
+        top: -100px;
+        left: 60%;
+        height: 18%;
+        width: 15%;
+    }
+
+    #car_2 {
+        top: -300px;
+        left: 40%;
+        height: 18%;
+        width: 15%;
+    }
+
+    #car_3 {
+        top: -450px;
+        left: 50%;
+        height: 18%;
+        width: 13%;
+    }
+
+    #restart_div {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+        font-size: 40px;
+        text-align: center;
+        display: none;
+    }
+
+    #restart {
+        border: none;
+        padding: 25px;
+        color: white;
+        background-color: cornflowerblue;
+        font-size: 30px;
+        margin-top: 30%;
+    }
+
+    .small_text {
+        font-size: 15px;
+    }
+
+    #score_div {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 10%;
+        font-size: 35px;
+        background-color: white;
+        color: #454545;
+        padding: 10px;
+        box-shadow: 4px 4px 0px 1px #808080;
+    }
+
+    #help {
+        text-align: center;
+    }
+
+
+
+   #links {
+        position: absolute;
+        top: 88%;
+        margin-left: 57%;
+        height: 50px;
+        width: 60px;
+    }
+    #rechts {
+        position: absolute;
+        top: 88%;
+        margin-left: 66%;
+        height: 50px;
+        width: 60px;
+    }
+
+    #omhoog {
+        position: absolute;
+        top: 82%;
+        margin-left: 61.5%;
+        height: 50px;
+        width: 60px;
+
+    }
+
+    #omlaag {
+        position: absolute;
+        top: 94%;
+        margin-left: 62%;
+        height: 50px;
+        width: 60px;
+
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1699px){
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background-color: black;
+    }
+
+    #container {
+        position: relative;
+        height: 80vh;
+        width: 40vw;
+        left: 35%;
+        background-color: #292929;
+        overflow: hidden;
+    }
+
+    .line {
+        position: absolute;
+        height: 150px;
+        width: 4%;
+        margin-left: 48%;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    #line_1 {
+        top: -150px;
+    }
+
+    #line_2 {
+        top: 150px;
+    }
+
+    #line_3 {
+        top: 450px;
+    }
+
+    .car {
+        position: absolute;
+        border: none;
+
+    }
+
+    #car {
+        bottom: 8%;
+        left: 60%;
+        width: 15%;
+        height: 17%;
+    }
+
+    #car_1 {
+        top: -100px;
+        left: 60%;
+        height: 18%;
+        width: 15%;
+    }
+
+    #car_2 {
+        top: -300px;
+        left: 40%;
+        height: 18%;
+        width: 15%;
+    }
+
+    #car_3 {
+        top: -450px;
+        left: 50%;
+        height: 18%;
+        width: 13%;
+    }
+
+    #restart_div {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+        font-size: 40px;
+        text-align: center;
+        display: none;
+    }
+
+    #restart {
+        border: none;
+        padding: 25px;
+        color: white;
+        background-color: cornflowerblue;
+        font-size: 30px;
+        margin-top: 30%;
+    }
+
+    .small_text {
+        font-size: 15px;
+    }
+
+    #score_div {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 10%;
+        font-size: 35px;
+        background-color: white;
+        color: #454545;
+        padding: 10px;
+        box-shadow: 4px 4px 0px 1px #808080;
+    }
+
+    #help {
+        text-align: center;
+    }
+
+
+
+   #links {
+        position: absolute;
+        top: 88%;
+        margin-left: 57%;
+        height: 50px;
+        width: 60px;
+    }
+    #rechts {
+        position: absolute;
+        top: 88%;
+        margin-left: 66%;
+        height: 50px;
+        width: 60px;
+    }
+
+    #omhoog {
+        position: absolute;
+        top: 82%;
+        margin-left: 61.5%;
+        height: 50px;
+        width: 60px;
+
+    }
+
+    #omlaag {
+        position: absolute;
+        top: 94%;
+        margin-left: 62%;
+        height: 50px;
+        width: 60px;
+
+    }
+
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 599px) {
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background-color: black;
+    }
+
+    #container {
+        position: relative;
+        height: 80vh;
+        width: 60vw;
+        left: 35%;
+        background-color: #292929;
+        overflow: hidden;
+    }
+
+    .line {
+        position: absolute;
+        height: 150px;
+        width: 4%;
+        margin-left: 48%;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    #line_1 {
+        top: -150px;
+    }
+
+    #line_2 {
+        top: 150px;
+    }
+
+    #line_3 {
+        top: 450px;
+    }
+
+    .car {
+        position: absolute;
+        border: none;
+
+    }
+
+    #car {
+        bottom: 8%;
+        left: 60%;
+        width: 15%;
+        height: 17%;
+    }
+
+    #car_1 {
+        top: -100px;
+        left: 60%;
+        height: 18%;
+        width: 15%;
+    }
+
+    #car_2 {
+        top: -300px;
+        left: 40%;
+        height: 18%;
+        width: 15%;
+    }
+
+    #car_3 {
+        top: -450px;
+        left: 50%;
+        height: 18%;
+        width: 13%;
+    }
+
+    #restart_div {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+        font-size: 40px;
+        text-align: center;
+        display: none;
+    }
+
+    #restart {
+        border: none;
+        padding: 25px;
+        color: white;
+        background-color: cornflowerblue;
+        font-size: 30px;
+        margin-top: 30%;
+    }
+
+    .small_text {
+        font-size: 15px;
+    }
+
+    #score_div {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 10%;
+        font-size: 35px;
+        background-color: white;
+        color: #454545;
+        padding: 10px;
+        box-shadow: 4px 4px 0px 1px #808080;
+    }
+
+    #help {
+        text-align: center;
+    }
+
+
+
+    #links {
+        position: absolute;
+        top: 85%;
+        margin-left: 58%;
+        height: 50px;
+        width: 60px;
+    }
+    #rechts {
+        position: absolute;
+        top: 85%;
+        margin-left: 65%;
+        height: 50px;
+        width: 60px;
+    }
+
+    #omhoog {
+        position: absolute;
+        top: 82%;
+        margin-left: 61.5%;
+        height: 50px;
+        width: 60px;
+
+    }
+
+    #omlaag {
+        position: absolute;
+        top: 88%;
+        margin-left: 62%;
+        height: 50px;
+        width: 60px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
