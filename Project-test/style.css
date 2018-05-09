@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 1700px) and (max-width: 4000px) {
     body {
         height: 100%;
@@ -9,7 +8,7 @@
 
     #container {
         position: relative;
-        height: 80vh;
+        height: 100vh;
         width: 30vw;
         left: 35%;
         background-color: #292929;
@@ -25,21 +24,24 @@
     }
 
     #line_1 {
-        top: -150px;
+        top: -450px;
     }
 
     #line_2 {
-        top: 150px;
+        top: -150px;   
     }
 
     #line_3 {
+        top: 150px;
+    }
+    
+    #line_4 {
         top: 450px;
     }
-
+    
     .car {
         position: absolute;
         border: none;
-
     }
 
     #car {
@@ -72,14 +74,16 @@
 
     #restart_div {
         position: absolute;
-        height: 100%;
-        width: 100%;
+        height: 10%%;
+        width: 20%;
         background-color: black;
         color: white;
         font-family: sans-serif;
         font-size: 40px;
         text-align: center;
         display: none;
+        top: 50%;
+        margin-left: 3.5%
     }
 
     #restart {
@@ -105,48 +109,39 @@
         padding: 10px;
         box-shadow: 4px 4px 0px 1px #808080;
     }
-
-    #help {
-        text-align: center;
+    
+    #highscore_div {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 35px;
+        background-color: white;
+        color: #454545;
+        padding: 10px;
+        box-shadow: 4px 4px 0px 1px #808080;
     }
 
 
 
-   #links {
+    #links {
         position: absolute;
-        top: 88%;
-        margin-left: 57%;
-        height: 50px;
-        width: 60px;
+        top: 0%;
+        margin-left: 35%;
+        height: 100%;
+        width: 15%;
+        background-color: transparent;
     }
     #rechts {
         position: absolute;
-        top: 88%;
-        margin-left: 66%;
-        height: 50px;
-        width: 60px;
-    }
-
-    #omhoog {
-        position: absolute;
-        top: 82%;
-        margin-left: 61.5%;
-        height: 50px;
-        width: 60px;
-
-    }
-
-    #omlaag {
-        position: absolute;
-        top: 94%;
-        margin-left: 62%;
-        height: 50px;
-        width: 60px;
-
+        top: 0%;
+        margin-left: 50%;
+        height: 100%;
+        width: 15%;
+        background-color: transparent;
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1699px){
+@media only screen and (min-width: 600px) and (max-width: 1699px) {
     body {
         height: 100%;
         width: 100%;
@@ -156,8 +151,8 @@
 
     #container {
         position: relative;
-        height: 80vh;
-        width: 40vw;
+        height: 100vh;
+        width: 50vw;
         left: 35%;
         background-color: #292929;
         overflow: hidden;
@@ -182,6 +177,10 @@
     #line_3 {
         top: 450px;
     }
+    
+    #line_4 {
+        top: 450px;
+    }
 
     .car {
         position: absolute;
@@ -219,14 +218,16 @@
 
     #restart_div {
         position: absolute;
-        height: 100%;
-        width: 100%;
+        height: 10%%;
+        width: 20%;
         background-color: black;
         color: white;
         font-family: sans-serif;
         font-size: 40px;
         text-align: center;
         display: none;
+        top: 50%;
+        margin-left: 3.5%
     }
 
     #restart {
@@ -253,43 +254,22 @@
         box-shadow: 4px 4px 0px 1px #808080;
     }
 
-    #help {
-        text-align: center;
-    }
 
-
-
-   #links {
+    #links {
         position: absolute;
-        top: 88%;
-        margin-left: 57%;
-        height: 50px;
-        width: 60px;
+        top: 0%;
+        margin-left: 35%;
+        height: 100%;
+        width: 25%;
+        background-color: transparent;
     }
     #rechts {
         position: absolute;
-        top: 88%;
-        margin-left: 66%;
-        height: 50px;
-        width: 60px;
-    }
-
-    #omhoog {
-        position: absolute;
-        top: 82%;
-        margin-left: 61.5%;
-        height: 50px;
-        width: 60px;
-
-    }
-
-    #omlaag {
-        position: absolute;
-        top: 94%;
-        margin-left: 62%;
-        height: 50px;
-        width: 60px;
-
+        top: 0%;
+        margin-left: 60%;
+        height: 100%;
+        width: 25%;
+        background-color: transparent;
     }
 
 }
@@ -304,7 +284,7 @@
 
     #container {
         position: relative;
-        height: 80vh;
+        height: 100vh;
         width: 60vw;
         left: 35%;
         background-color: #292929;
@@ -331,6 +311,10 @@
         top: 450px;
     }
 
+    #line_4 {
+        top: 450px;
+    }
+    
     .car {
         position: absolute;
         border: none;
@@ -341,49 +325,50 @@
         bottom: 8%;
         left: 60%;
         width: 15%;
-        height: 17%;
+        height: 15%;
     }
 
     #car_1 {
-        top: -100px;
+        top: -150px;
         left: 60%;
-        height: 18%;
+        height: 15%;
         width: 15%;
     }
 
     #car_2 {
         top: -300px;
         left: 40%;
-        height: 18%;
+        height: 15%;
         width: 15%;
     }
 
     #car_3 {
         top: -450px;
-        left: 50%;
-        height: 18%;
+        left: 60%;
+        height: 13%;
         width: 13%;
     }
 
-    #restart_div {
+    #score_div {
         position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        color: white;
-        font-family: sans-serif;
-        font-size: 40px;
-        text-align: center;
-        display: none;
+        margin-top: 20%;
+        margin-left: 10%;
+        font-size: 35px;
+        background-color: white;
+        color: #454545;
+        padding: 10px;
+        box-shadow: 4px 4px 0px 1px #808080;
     }
-
-    #restart {
-        border: none;
-        padding: 25px;
-        color: white;
-        background-color: cornflowerblue;
-        font-size: 30px;
-        margin-top: 30%;
+    
+    #highscore_div {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 35px;
+        background-color: white;
+        color: #454545;
+        padding: 10px;
+        box-shadow: 4px 4px 0px 1px #808080;
     }
 
     .small_text {
@@ -401,51 +386,21 @@
         box-shadow: 4px 4px 0px 1px #808080;
     }
 
-    #help {
-        text-align: center;
-    }
-
-
-
+   
     #links {
         position: absolute;
-        top: 85%;
-        margin-left: 58%;
-        height: 50px;
-        width: 60px;
+        top: 0%;
+        margin-left: 35%;
+        height: 100%;
+        width: 30%;
+        background-color: transparent;
     }
     #rechts {
         position: absolute;
-        top: 85%;
+        top: 0%;
         margin-left: 65%;
-        height: 50px;
-        width: 60px;
-    }
-
-    #omhoog {
-        position: absolute;
-        top: 82%;
-        margin-left: 61.5%;
-        height: 50px;
-        width: 60px;
-
-    }
-
-    #omlaag {
-        position: absolute;
-        top: 88%;
-        margin-left: 62%;
-        height: 50px;
-        width: 60px;
-
+        height: 100%;
+        width: 30%;
+        background-color: transparent;
     }
 }
-
-
-
-
-
-
-
-
-
