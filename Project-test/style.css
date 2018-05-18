@@ -5,6 +5,19 @@
         margin: 0;
         background-color: black;
     }
+    
+    #div_uitleg{
+        width: 40px;
+        height: 30px;
+    }
+
+    #uitleg {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        color: white;
+        font-size: 20px;
+    }
 
     #container {
         position: relative;
@@ -28,17 +41,31 @@
     }
 
     #line_2 {
-        top: -150px;   
+        top: -450px;
     }
 
     #line_3 {
+        top: -450px;
+    }
+
+    #line_4 {
+        top: -450px;
+    }
+
+    #line_5 {
+        top: -150px;
+    }
+
+    #line_6 {
         top: 150px;
     }
-    
-    #line_4 {
+
+    #line_7 {
         top: 450px;
     }
-    
+
+
+
     .car {
         position: absolute;
         border: none;
@@ -53,21 +80,21 @@
 
     #car_1 {
         top: -100px;
-        left: 60%;
+        left: 70%;
         height: 18%;
         width: 15%;
     }
 
     #car_2 {
         top: -300px;
-        left: 40%;
+        left: 30%;
         height: 18%;
         width: 15%;
     }
 
     #car_3 {
-        top: -450px;
-        left: 50%;
+        top: -600px;
+        left: 55%;
         height: 18%;
         width: 13%;
     }
@@ -82,8 +109,8 @@
         font-size: 40px;
         text-align: center;
         display: none;
-        top: 50%;
-        margin-left: 3.5%
+        top: 70%;
+        margin-left: -1%
     }
 
     #restart {
@@ -95,33 +122,27 @@
         margin-top: 30%;
     }
 
-    .small_text {
-        font-size: 15px;
-    }
-
     #score_div {
         position: absolute;
-        margin-top: 20%;
-        margin-left: 10%;
+        margin-top: 30%;
+        margin-left: 5%;
         font-size: 35px;
         background-color: white;
         color: #454545;
         padding: 10px;
         box-shadow: 4px 4px 0px 1px #808080;
     }
-    
+
     #highscore_div {
         position: absolute;
-        margin-top: 10%;
-        margin-left: 10%;
+        margin-top: 20%;
+        margin-left: 5%;
         font-size: 35px;
         background-color: white;
         color: #454545;
         padding: 10px;
         box-shadow: 4px 4px 0px 1px #808080;
     }
-
-
 
     #links {
         position: absolute;
@@ -148,6 +169,20 @@
         margin: 0;
         background-color: black;
     }
+    
+    #div_uitleg{
+        top: 10%;
+        position: absolute;
+        left: 5%;
+        width: 30%;
+        height: 10%;
+        
+    }
+    
+    #uitleg {
+        color: white;
+        font-size: 17px;
+    }
 
     #container {
         position: relative;
@@ -167,18 +202,30 @@
     }
 
     #line_1 {
-        top: -150px;
+        top: -450px;
     }
 
     #line_2 {
-        top: 150px;
+        top: -450px;
     }
 
     #line_3 {
-        top: 450px;
+        top: -450px;
     }
-    
+
     #line_4 {
+        top: -450px;
+    }
+
+    #line_5 {
+        top: -150px;
+    }
+
+    #line_6 {
+        top: 150px;
+    }
+
+    #line_7 {
         top: 450px;
     }
 
@@ -197,21 +244,21 @@
 
     #car_1 {
         top: -100px;
-        left: 60%;
+        left: 70%;
         height: 18%;
         width: 15%;
     }
 
     #car_2 {
         top: -300px;
-        left: 40%;
+        left: 30%;
         height: 18%;
         width: 15%;
     }
 
     #car_3 {
-        top: -450px;
-        left: 50%;
+        top: -600px;
+        left: 55%;
         height: 18%;
         width: 13%;
     }
@@ -226,8 +273,8 @@
         font-size: 40px;
         text-align: center;
         display: none;
-        top: 50%;
-        margin-left: 3.5%
+        top: 80%;
+        margin-left: 5%
     }
 
     #restart {
@@ -239,14 +286,21 @@
         margin-top: 30%;
     }
 
-    .small_text {
-        font-size: 15px;
-    }
-
     #score_div {
         position: absolute;
-        margin-top: 20%;
-        margin-left: 10%;
+        margin-top: 50%;
+        margin-left: 5%;
+        font-size: 35px;
+        background-color: white;
+        color: #454545;
+        padding: 10px;
+        box-shadow: 4px 4px 0px 1px #808080;
+    }
+
+    #highscore_div {
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 5%;
         font-size: 35px;
         background-color: white;
         color: #454545;
@@ -282,6 +336,20 @@
         background-color: black;
     }
 
+     #div_uitleg{
+        top: 10%;
+        position: absolute;
+        left: 5%;
+        width: 30%;
+        height: 10%;
+        
+    }
+    
+    #uitleg {
+        color: white;
+        font-size: 17px;
+    }
+    
     #container {
         position: relative;
         height: 100vh;
@@ -300,21 +368,33 @@
     }
 
     #line_1 {
-        top: -150px;
+        top: -1300px;
     }
 
     #line_2 {
-        top: 150px;
+        top: -950px;
     }
 
     #line_3 {
-        top: 450px;
+        top: -700px;
     }
 
     #line_4 {
+        top: -450px;
+    }
+
+    #line_5 {
+        top: -150px;
+    }
+
+    #line_6 {
+        top: 150px;
+    }
+
+    #line_7 {
         top: 450px;
     }
-    
+
     .car {
         position: absolute;
         border: none;
@@ -330,29 +410,43 @@
 
     #car_1 {
         top: -150px;
-        left: 60%;
+        left: 70%;
         height: 15%;
         width: 15%;
     }
 
     #car_2 {
-        top: -300px;
-        left: 40%;
+        top: -350px;
+        left: 30%;
         height: 15%;
         width: 15%;
     }
 
     #car_3 {
-        top: -450px;
-        left: 60%;
+        top: -600px;
+        left: 55%;
         height: 13%;
         width: 13%;
     }
 
+    #restart_div {
+        position: absolute;
+        height: 10%%;
+        width: 20%;
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+        font-size: 40px;
+        text-align: center;
+        display: none;
+        top: 80%;
+        margin-left: 5%
+    }
+
     #score_div {
         position: absolute;
-        margin-top: 20%;
-        margin-left: 10%;
+        margin-top: 50%;
+        margin-left: 5%;
         font-size: 35px;
         background-color: white;
         color: #454545;
@@ -360,10 +454,19 @@
         box-shadow: 4px 4px 0px 1px #808080;
     }
     
+    #restart {
+        border: none;
+        padding: 25px;
+        color: white;
+        background-color: cornflowerblue;
+        font-size: 30px;
+        margin-top: 30%;
+    }
+
     #highscore_div {
         position: absolute;
-        margin-top: 10%;
-        margin-left: 10%;
+        margin-top: 60%;
+        margin-left: 5%;
         font-size: 35px;
         background-color: white;
         color: #454545;
@@ -371,22 +474,6 @@
         box-shadow: 4px 4px 0px 1px #808080;
     }
 
-    .small_text {
-        font-size: 15px;
-    }
-
-    #score_div {
-        position: absolute;
-        margin-top: 20%;
-        margin-left: 10%;
-        font-size: 35px;
-        background-color: white;
-        color: #454545;
-        padding: 10px;
-        box-shadow: 4px 4px 0px 1px #808080;
-    }
-
-   
     #links {
         position: absolute;
         top: 0%;
