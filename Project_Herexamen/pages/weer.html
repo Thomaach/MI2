@@ -1,0 +1,71 @@
+<template>
+<div class="page" style="background: #D8E8DA">
+  <div class="navbar">
+    <div class="navbar-inner sliding" style="background: #009688">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Back</span>
+        </a>
+      </div>
+      <div class="title">Het Weer</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="block block-strong">
+        <div id="weather-info" class="page-content" style="text-align: center;"></div>
+        <div id="weather-info3" class="page-content" style="text-align: center;"></div>
+    </div>
+  </div>
+</div>
+</template>
+
+<script>    
+  return {
+    on: {
+      pageInit: function () {
+          var weatherContainer = document.getElementById("weather-info");
+
+        var ourRequest = new XMLHttpRequest();
+        ourRequest.open('GET', 'https://api.openweathermap.org/data/2.5/find?q=Aalst&units=metric&APPID=6243075e3fc640a6a8911dafae5a3843');
+        ourRequest.onload = function() {
+            var ourData = JSON.parse(ourRequest.responseText);
+            renderHTML(ourData);
+        };
+        ourRequest.send();
+
+        function renderHTML(data) {
+            var string = "<b>Actueel weer:</b></br>Temperatuur: " + data.list[0].main.temp + " °C</br>" + "Weer beschrijving: " + data.list[0].weather[0].description+ "</br>";
+            weatherContainer.insertAdjacentHTML('beforeend', string);
+
+        }
+          
+          
+          
+          
+          
+          
+          
+          
+          var weatherContainer3 = document.getElementById("weather-info3");
+
+        var ourRequest3 = new XMLHttpRequest();
+        ourRequest3.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=2803451&units=metric&APPID=6243075e3fc640a6a8911dafae5a3843');
+        ourRequest3.onload = function() {
+            var ourData3 = JSON.parse(ourRequest3.responseText);
+            renderHTML3(ourData3);
+        };
+        ourRequest3.send();
+          
+          
+          function renderHTML3(data) {
+            var string = "</br><b>Het weer over 3 uur:</b></br>Temperatuur: " + data.list[1].main.temp + " °C</br>" + "Weer beschrijving: " + data.list[1].weather[0].description;
+            weatherContainer.insertAdjacentHTML('beforeend', string);
+
+        }
+      }
+    }
+  }
+</script>
+
+

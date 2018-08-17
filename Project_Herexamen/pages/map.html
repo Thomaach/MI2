@@ -1,0 +1,52 @@
+<template>
+<div class="page">
+  <div class="navbar">
+    <div class="navbar-inner sliding" style="background: #009688">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Back</span>
+        </a>
+      </div>
+      <div class="title">Locatie</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="block block-strong">
+        
+      <figure id="map"></figure>
+    </div>
+  </div>
+</div>
+</template>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI6PBeJ3ZZUirKCK0ZYomVFXHD7_PJQpc&callback=initMap"></script>
+<script>    
+  return {
+    on: {
+      pageInit: function () {          
+              
+            console.log("test");
+              
+            var plaats = {
+                lat: 50.9233303,
+                lng: 3.9660330
+            };
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: plaats
+            });
+          
+            var marker = new google.maps.Marker({
+                position: plaats,
+                map: map
+            });
+              
+             marker.setMap(map); 
+          
+
+      }
+    }
+}  
+</script>
