@@ -1,0 +1,271 @@
+ #logo {
+        width: 6em;
+        height: 6em;
+    }
+    #mySidenav a {
+        position: absolute;
+        left: -6em;
+        transition: 0.3s;
+        padding: 0.8em;
+        width: 7em;
+        text-decoration: inherit;
+        font-size: 1.25em;
+        color: white;
+        border-radius: 0 0.5em 0.5em 0;
+    }
+    #mySidenav a:hover {
+        left: 0;
+    }
+    #historie {
+        top: 11.2em;
+        background-color: #009688;
+    }
+    #promoties {
+        top: 15.4em;
+        background-color: #009688;
+    }
+    #tijdelijkeproducten {
+        top: 20.1em;
+        background-color: #009688;
+    }
+    #receptjes {
+        top: 26em;
+        background-color: #009688
+    }
+    #saladebar {
+        top: 31.2em;
+        background-color: #009688
+    }
+    #schotels {
+        top: 35.4em;
+        background-color: #009688
+    }
+    #contact {
+        top: 41.3em;
+        background-color: #009688
+            
+            
+    }
+    #fotoMenuHistorie {
+        height: 1em;
+        width: 1em;
+        margin-left: 6.3em;
+    }
+    #fotoMenuPromoties {
+        height: 1.5em;
+        width: 1.5em;
+        margin-left: 6em;
+    }
+    #fotoMenuTijdelijkeProducten {
+        height: 1.5em;
+        width: 1.5em;
+        margin-left: 6em;
+    }
+    #fotoMenuRecepten {
+        height: 2em;
+        width: 2em;
+        margin-left: 5.8em;
+    }
+    #fotoMenuSaladebar {
+        height: 1em;
+        width: 1em;
+        margin-left: 6.3em;
+    }
+    #fotoMenuSchotels {
+        height: 1.5em;
+        width: 1.5em;
+        margin-left: 6em;
+    }
+    #fotoMenuContact {
+        height: 1em;
+        width: 1em;
+        margin-left: 6.4em;
+    }
+    p {
+        margin-left: 5em;
+        font-size: 1.25em;
+    }
+    h3 {
+        margin-left: 5em;
+    }
+    h2 {
+        margin-left: 2em;
+    }
+    h1 {
+        margin-left: 3em;
+    }       
+    body {
+        background-color: #D8E8DA
+    }
+    .header img {
+        float: left;
+        width: 6.25em;
+        height: 6.25em;
+
+    }
+    #titel {
+
+        margin-left: 4em;
+        margin-top: -4em;
+        line-height: 6.25em;
+    }
+    .foto1 {
+        margin-left: 5em;
+        height: 30em;
+        width: 35em;
+    }
+    .fotoSaladebar {
+        margin-left: 5em;
+        height: 30em;
+        width: 45em;
+    }    
+    .fotoSeizoensGroenten {
+        margin-left: 5em;
+        height: 15%;
+        width: 15%;
+    }    
+    .fotoPromotie
+    {
+        margin-left: 5em;
+        height: 10em;
+        width: 20em;
+    }
+    #contactgegevens {
+        margin-left: 5em;
+        font-size: 1.25em;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .lijst {
+        margin-left: 5em;
+        font-size: 1.25em;
+    }
+    .saladeLijst {
+        list-style: circle;
+        top: 20em;
+        font-size: 1.25em;
+        column-count: 3;
+        list-style-type: none;
+    }
+    .openingsdagen {
+        padding-left: 7em;
+    }    
+    .gerechten {
+        padding-left: 2em;
+    }    
+    .menu{
+        font-weight: bold;
+    }    
+    #map{
+        height: 20em;
+        width: 20em;
+        left: 7em;
+    }    
+    form{
+        margin-left: 9em;
+    }    
+    #inputform
+    {
+        height: 10em;
+        width: 15em;
+    }
+    a:link
+    {
+        text-decoration: none;
+        color: brown;
+    }    
+    a:visited{
+        color: brown;
+        text-decoration: none;
+    }    
+    body > div:last-child img{width: 0px; height: 0px;}
+    
+
+@media screen and (max-width: 800px) {
+
+    #mySidenav a {
+        left: -6.5em;
+        width: 8em;
+        
+    } 
+    #fotoMenuHistorie {
+        margin-left: 7em;
+    }
+    #fotoMenuPromoties {
+        margin-left: 6.7em;
+    }
+    #fotoMenuTijdelijkeProducten {
+        margin-left: 6.7em;
+    }
+    #fotoMenuRecepten {
+        margin-left: 6.5em;
+    }
+    #fotoMenuSaladebar {
+        margin-left: 7em;
+    }
+    #fotoMenuSchotels {
+        margin-left: 6.7em;
+    }
+    #fotoMenuContact {
+        margin-left: 7em;
+    }
+    .fotoSaladebar {
+        height: 10em;
+        width: 25em;
+    }     
+    .openingsdagen {
+        padding-left: 5em;
+    }    
+    .gerechten {
+        padding-left: 2em;
+    }    
+    #map{
+        height: 15em;
+        width: 15em;        
+    }        
+}
+
+@media screen and (max-width: 450px) {
+
+    #mySidenav a {        
+        left: -7em;
+        width: 8em;        
+    }
+    #fotoMenuHistorie {
+        margin-left: 7em;
+    }
+    #fotoMenuPromoties {
+        margin-left: 6.7em;
+    }
+    #fotoMenuTijdelijkeProducten {
+        margin-left: 6.7em;
+    }
+    #fotoMenuRecepten {
+        margin-left: 6.5em;
+    }
+    #fotoMenuSaladebar {
+        margin-left: 7em;
+    }
+    #fotoMenuSchotels {
+        margin-left: 6.7em;
+    }
+    #fotoMenuContact {
+        margin-left: 7em;
+    }
+    .foto1 {
+        height: 14em;
+        width: 19em;
+    }
+    .fotoSaladebar {
+        height: 10em;
+        width: 20em;
+    }           
+    .openingsdagen {
+        padding-left: 5em;
+    }        
+    #map{
+        height: 15em;
+        width: 15em;
+    }        
+}
