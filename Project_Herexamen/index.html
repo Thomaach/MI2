@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#2196f3">
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+  <title>Groenten & Fruit Thys</title>
+  <link rel="stylesheet" href="./css/framework7.css">
+  <link rel="stylesheet" href="./css/Thys.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="apple-touch-icon" href="img/f7-icon-square.png">
+  <link rel="shortcut icon" href="img/Thys_Logo_Met_Achtergrond.png" />
+  
+</head>
+<body class="md color-theme-green a">
+  <div id="app">
+    <div class="statusbar"></div>
+      
+      <!--left-panel-->
+    <div class="panel panel-left panel-cover">
+      <div class="page">
+        <div class="page-content" style="background: #D8E8DA">
+            
+          <div class="block-title">Menu
+            <a href="#" class="panel-close"><i class="icon material-icons md-only  ">cancel</i></a></div>
+          <div class="block">
+          </div>
+          <div class="list links-list">
+            <ul>
+                <li><a href="/historie/" class="panel-close">Historie</a></li>
+                <li><a href="/promoties/" class="panel-close">Promoties</a></li>
+                <li><a href="/tijdelijk/" class="panel-close">Seizoens Producten</a></li>
+                <li><a href="/receptjes/" class="panel-close">Receptjes</a></li>
+                <li><a href="/saladebar/" class="panel-close">Saladebar</a></li>
+                <li><a href="/schotels/" class="panel-close">Vlees- en kaasschotels</a></li>
+                <li><a href="/map/" class="panel-close">Locatie</a></li>
+                
+                <!--aangezien google maps niet wilt werken met framework7 staat dit in commentaat-->
+
+                <li><a href="/weer/" class="panel-close">Weer</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      
+      
+      <!--Pagina-->
+    <div class="view view-main view-init ios-edges" data-url="/">
+      <div class="page">
+        <div class="navbar">
+          <div class="navbar-inner" style="background: #009688 ">
+              
+            <div class="left">
+              <a href="#" class="link icon-only panel-open" data-panel="left">
+                <i class="icon f7-icons ios-only">menu</i>
+                <i class="icon material-icons md-only">menu</i>
+              </a>
+            </div>
+            <div class="title sliding">Groenten & Fruit Thys</div>
+            
+              <div class="right">
+                  <!--search start--> 
+            </div>              
+            <form data-search-container=".components-list" data-search-in="a" class="searchbar searchbar-expandable searchbar-components searchbar-init">
+              <div class="searchbar-inner">
+                <div class="searchbar-input-wrap">
+                 
+                  <i class="searchbar-icon"></i>
+                  <span class="input-clear-button"></span>
+                </div>
+                <span class="searchbar-disable-button">Cancel</span>
+                </div>
+            </form>
+          </div>
+        </div>
+          
+          <!--text van de pagina-->
+        <div class="page-content" style="background: #D8E8DA; text-align: center;">
+            
+            <!--text-align: center background: #D8E8DA-->
+            
+            <h2>Openingsuren</h2>
+                <ul style="list-style-type: none">
+                    <li>Maandag</li>
+                    <li>14u - 18u30</li>
+                    <br>
+                    <li>Dinsdag</li>
+                    <li>8u30 - 12u30 <br> 14u - 18u30</li>
+                    <br>
+                    <li>Woensdag</li>
+                    <li>8u30 - 12u30 <br> 14u - 18u30</li>
+                    <br>
+                    <li>Donderdag </li>
+                    <li>8u30 - 12u30 <br> 14u - 18u30</li>
+                    <br>
+                    <li>Vrijdag</li>
+                    <li>8u30 - 12u30 <br> 14u - 18u30</li>
+                    <br>
+                    <li>Zaterdag</li>
+                    <li>8u30 - 18u</li>
+                    <br>
+                    <li>Zondag</li>
+                    <li>gesloten</li>
+                </ul>
+            
+
+        </div>
+          
+      </div>
+    </div>
+  </div>
+    
+    <!--js files-->
+  <script src="./js/framework7.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
